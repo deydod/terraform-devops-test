@@ -1,11 +1,23 @@
-.env
-grand-sweep-490023-n2-be46df61520d.json
-
 # Terraform
-**/.terraform/
+terraform/.terraform/
+terraform/*.tfvars
+terraform/.terraform.lock.hcl
 *.tfstate
 *.tfstate.*
 *.log
 
-# Optional
-terraform/*.tfvars
+# Environment files
+.env
+.env.*
+
+# Google Cloud credentials
+*.json
+!package.json
+!composer.json
+
+# IDE / Editor
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
