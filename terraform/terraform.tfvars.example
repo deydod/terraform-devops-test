@@ -1,0 +1,9 @@
+project_id = ""
+region = "europe-west1"
+bucket_name = ""
+container_image = "gcr.io/<project_id>/php-app:latest"
+
+db_instance = ""
+db_name = ""
+db_user = ""
+db_password = ""

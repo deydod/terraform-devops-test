@@ -1,0 +1,11 @@
+.env
+grand-sweep-490023-n2-be46df61520d.json
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.log
+
+# Optional
+terraform/*.tfvars
